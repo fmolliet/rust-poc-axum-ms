@@ -7,7 +7,7 @@ use axum::{
     TypedHeader, async_trait, extract::FromRequestParts, RequestPartsExt
 };
 
-use jsonwebtoken::{decode, encode, Algorithm, DecodingKey, EncodingKey, Header, Validation};
+use jsonwebtoken::{decode, encode, DecodingKey, EncodingKey, Header, Validation};
 use once_cell::sync::Lazy;
 use serde::{Deserialize, Serialize};
 use serde_json::json;
